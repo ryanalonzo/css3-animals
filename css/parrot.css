@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    padding: 80px;
+    overflow: hidden;
+}
+.parrot {
+    height: 250px;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    background: grey;
+}
+.parrot-body {
+    height: 200px;
+    width: 200px;
+    background: #71BE00;
+}

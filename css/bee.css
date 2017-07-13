@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    padding: 80px;
+    overflow: hidden;
+}
+.bee {
+    height: 250px;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.bee-head {
+    background: #3D270C;
+    width: 150px;
+    height: 75px;
+    margin: 0 auto;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    position: relative;
+    z-index: 2000;
+}
+.container {
+    width: 200px;
+}
+.bee-eyes {
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    float: left;
+    margin-top: 25px;
+    margin-right: 27px;
+    margin-left: 32px;
+    position: relative;
+}
+.bee-eyes:last-child{
+    margin-left: 0;
+    margin-right: 0;
+}
+.bee-pupil {
+    background: #3D270C;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: 8px;
+    left: 8px;
+    position: relative;
+}
+.bee-body {
+    width: 150px;
+    margin: 0 auto;
+
+}
+.yellow-stripe {
+    background: #EDE300;
+    height: 20px;
+    width: 100%;
+    z-index: 2000;
+    position: relative;
+}
+.brown-stripe {
+    background: #3D270C;
+    height: 20px;
+    width: 100%;
+    z-index: 2000;
+    position: relative;
+}
+.bee-lower-body {
+    background: #EDE300;
+    width: 150px;
+    height: 75px;
+    margin: 0 auto;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2000;
+}
+.bee-lower-body .brown-stripe {
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+.bee-wing-left {
+    float: left;
+    border-radius: 168px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #B3E4D8;
+    width: 84px;
+    height: 80px;
+    left: 85px;
+    top: 75px;
+    position: absolute;
+}
+.bee-wing-right {
+    float: right;
+    border-radius: 168px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: #B3E4D8;
+    width: 84px;
+    height: 80px;
+    right: 85px;
+    top: 75px;
+    position: absolute;
+}
+.bee-tail {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #3D270C;
+    bottom: 45px;
+    left: 190px;
+    position: absolute;
+}
+
