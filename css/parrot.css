@@ -1,11 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-.main {
-    padding: 80px;
-    overflow: hidden;
-}
 .parrot {
     height: 200px;
     width: 300px;
