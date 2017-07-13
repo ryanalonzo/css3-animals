@@ -7,15 +7,65 @@
     overflow: hidden;
 }
 .parrot {
-    height: 250px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
     overflow: hidden;
     position: relative;
     float: right;
-    background: grey;
 }
 .parrot-body {
-    height: 200px;
+    height: 100%;
     width: 200px;
     background: #71BE00;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    z-index: 2000;
+}
+.parrot-wing {
+    height: 100px;
+    width: 100px;
+    background: #3B6D00;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.parrot-eye {
+    height: 40px;
+    width: 40px;
+    background: white;
+    float: right;
+    border-radius: 80px;
+    margin: 30px 30px 0 0;
+}
+.parrot-pupil {
+    height: 20px;
+    width: 20px;
+    background: #2A7200;
+    border-radius: 40px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.parrot-beak-upper {
+    background: #FAB600;
+    width: 50px;
+    height: 50px;
+    float: right;
+    border-top-right-radius: 100px;
+    position: relative;
+    right: 50px;
+    z-index: 2000;
+}
+.parrot-beak-lower {
+    background: #F79600;
+    width: 50px;
+    height: 50px;
+    float: right;
+    border-radius: 100px;
+    position: absolute;
+    right: 70px;
+    top: 20px;
 }
