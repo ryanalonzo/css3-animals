@@ -2,6 +2,7 @@
     height: 220px;
     width: 300px;
     position: relative;
+    padding-top: 15px;
 }
 .penguin-body-black {
     width: 80px;

@@ -1,0 +1,55 @@
+.whale {
+    height: 100%;
+    width: 350px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: gray;
+}
+.whale-eye {
+    width: 40px;
+    height: 40px;
+    background: white;
+    position: absolute;
+    left: 35px;
+    top: 30px;
+    z-index: 3;
+    border-radius: 100px;
+}
+.whale-pupil {
+    width: 20px;
+    height: 20px;
+    background: #3B97B8;
+    border-radius: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.whale-body {
+    width: 200px;
+    height: 200px;
+    background: #46B8DE;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    overflow: hidden;
+}
+.whale-tummy {
+    width: 150px;
+    height: 155px;
+    background: #C1DBE0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100px;
+    overflow: hidden;
+}
+.white-stripe {
+    width: 2px;
+    height: 100%;
+    background: white;
+    margin-left: 23px;
+    float: left;
+}
